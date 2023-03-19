@@ -3,6 +3,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+root {
+}
+
 .list {
   list-style: none;
 }
@@ -13,8 +16,6 @@ body {
 
 /**---------------heder-------------**/
 
-
-
 .header {
   width: 1440px;
   height: 72px;
@@ -24,30 +25,63 @@ body {
 }
 
 .header-navigation {
-
 }
 
 .header-logo {
-
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  position: absolute;
+  width: 115px;
+  height: 24px;
+  left: 156px;
+  top: 24px;
 }
 
-.web{
-color: #4D5AE5;
+.web {
+  color: #4d5ae5;
 }
 
-.studio{
-color: #2E2F42;
+.studio {
+  color: #2e2f42;
 }
 
 .header-list {
+  position: absolute;
+  width: 261px;
+  height: 24px;
+  left: 347px;
+  top: 24px;
+}
 
+.header-link-studio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-link-portfolio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .header-item {
 }
 
 .header-link {
-
 }
 
 .header-mail {
@@ -79,12 +113,22 @@ color: #2E2F42;
 }
 /**-------------------main-----------------**/
 .hero {
-
 }
 
 .hero-title {
-
 }
 
 .hero-button {
+}
 
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
