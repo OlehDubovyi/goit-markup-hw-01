@@ -11,53 +11,80 @@ body {
   text-decoration: none;
 }
 
+/**---------------heder-------------**/
+
+
+
 .header {
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
 }
 
 .header-navigation {
+
 }
 
 .header-logo {
+
+}
+
+.web{
+color: #4D5AE5;
+}
+
+.studio{
+color: #2E2F42;
 }
 
 .header-list {
+
 }
 
 .header-item {
 }
 
 .header-link {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+
 }
 
 .header-mail {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  position: absolute;
+  width: 153px;
+  height: 24px;
+  left: 940px;
+  top: 24px;
 }
 
 .header-phone {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  position: absolute;
+  width: 151px;
+  height: 24px;
+  left: 1133px;
+  top: 24px;
+}
+/**-------------------main-----------------**/
+.hero {
+
 }
 
-.footer {
+.hero-title {
+
 }
 
-.footer-logo {
-}
+.hero-button {
 
-.footer-text {
-}
