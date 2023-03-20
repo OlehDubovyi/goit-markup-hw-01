@@ -1,7 +1,7 @@
 
 
 root {
-  --primary-text-color:
+  --primary-text-color: #2e2f42;
   --title-text-color: #434455;
   --accent-color: 
   --primary-white-color #ffffff;
@@ -10,8 +10,8 @@ root {
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
 }
 
 .list {
