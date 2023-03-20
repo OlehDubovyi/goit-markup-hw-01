@@ -1,11 +1,17 @@
+
+
+root {
+  --primary-text-color:
+  --title-text-color: #434455;
+  --accent-color: 
+  --primary-white-color #ffffff;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-}
-
-root {
 }
 
 .list {
